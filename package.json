@@ -5,7 +5,7 @@
     "main": "src/main.ts",
     "type": "commonjs",
     "scripts": {
-        "prod": "cross-env NODE_ENV=production dist/main.js",
+        "start": "cross-env NODE_ENV=production dist/main.js",
         "dev": "nodemon src/main.ts",
         "build": "rm -rf dist && tsc"
     },
@@ -33,11 +33,10 @@
     },
     "homepage": "https://github.com/sayeed205/one-mirror#readme",
     "dependencies": {
-        "config": "^3.3.9",
+        "dotenv": "^16.3.1",
         "nestgram": "^1.9.0"
     },
     "devDependencies": {
-        "@types/config": "^3.3.0",
         "@types/node": "^18.16.19",
         "@types/nodemon": "^1.19.2",
         "@types/prettier": "^2.7.3",
