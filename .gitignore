@@ -133,3 +133,6 @@ config
 
 # nestgram residuals
 nestgram
+
+# intellij idea configuration
+.idea
